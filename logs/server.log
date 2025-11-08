@@ -3,13 +3,13 @@
 > vite
 
 
-  VITE v5.4.20  ready in 225 ms
+  VITE v5.4.20  ready in 202 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.25.79:3000/
-1:01:54 PM [vite] Pre-transform error: Transform failed with 1 error:
+1:03:49 PM [vite] Pre-transform error: Transform failed with 1 error:
 /home/workspace/src/components/GeoScene.jsx:46:104: ERROR: Unterminated string literal
-1:01:55 PM [vite] Internal server error: Transform failed with 1 error:
+1:03:50 PM [vite] Internal server error: Transform failed with 1 error:
 /home/workspace/src/components/GeoScene.jsx:46:104: ERROR: Unterminated string literal
   Plugin: vite:esbuild
   File: /home/workspace/src/components/GeoScene.jsx:46:104
