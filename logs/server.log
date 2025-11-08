@@ -3,13 +3,36 @@
 > vite
 
 
-  VITE v5.4.20  ready in 202 ms
+  VITE v5.4.20  ready in 216 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.25.79:3000/
-1:03:49 PM [vite] Pre-transform error: Transform failed with 1 error:
+1:07:46 PM [vite] Pre-transform error: Transform failed with 1 error:
 /home/workspace/src/components/GeoScene.jsx:46:104: ERROR: Unterminated string literal
-1:03:50 PM [vite] Internal server error: Transform failed with 1 error:
+1:07:47 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/GeoScene.jsx:46:104: ERROR: Unterminated string literal
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/GeoScene.jsx:46:104
+  
+  Unterminated string literal
+  44 |                  style={{
+  45 |                    backgroundImage:
+  46 |                      'radial-gradient(100% 60% at 60% 40%, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0) 60%),
+     |                                                                                                          ^
+  47 |                       radial-gradient(70% 50% at 30% 70%, rgba(255,255,255,0.12) 0%, rgba(0,0,0,0) 60%)',
+  48 |                  }}
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+1:07:47 PM [vite] Internal server error: Transform failed with 1 error:
 /home/workspace/src/components/GeoScene.jsx:46:104: ERROR: Unterminated string literal
   Plugin: vite:esbuild
   File: /home/workspace/src/components/GeoScene.jsx:46:104

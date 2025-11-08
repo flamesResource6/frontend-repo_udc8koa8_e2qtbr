@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Play } from 'lucide-react';
+import { X } from 'lucide-react';
 
 const InfoPanel = ({ site, onClose, onShowProducts }) => {
   if (!site) return null;
